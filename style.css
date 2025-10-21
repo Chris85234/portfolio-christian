@@ -1,9 +1,13 @@
-/* Tipografía base */
+/* Fondo general con textura de madera */
 body {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    background-color: #111111;
     color: #ffffff;
+    background-image: url('images/madera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 /* HERO */
@@ -26,12 +30,10 @@ body {
     position: absolute;
     bottom: 40px;
     left: 60px;
-    /* ← Cambiado de right a left */
     text-align: left;
     color: #ffffff;
     max-width: 500px;
 }
-
 
 .hero-content h1 {
     font-family: 'Playfair Display', serif;
@@ -65,10 +67,11 @@ body {
     background-color: #bfa06a;
 }
 
+/* Íconos sociales */
 .social-icons {
     margin-top: 24px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     gap: 24px;
 }
 
@@ -83,10 +86,9 @@ body {
     color: #D4B483;
 }
 
-
 /* SOBRE MÍ */
 #sobre-mi {
-    background-color: #1a1a1a;
+    background-color: rgba(0, 0, 0, 0.7);
     padding: 80px 120px;
     color: #ffffff;
 }
@@ -135,13 +137,69 @@ body {
 
 .habilidades-lista li {
     font-size: 16px;
-    margin-bottom: 8px;
-    position: relative;
-    padding-left: 20px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
 
-.habilidades-lista li::before {
-    content: "🍽️";
-    position: absolute;
-    left: 0;
+.habilidades-lista i {
+    color: #D4B483;
+    font-size: 18px;
+}
+
+#educacion {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 80px 120px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.educacion-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    color: #D4B483;
+    margin-bottom: 48px;
+}
+
+.educacion-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+}
+
+.educacion-item {
+    background: rgba(0, 0, 0, 0.534);
+    /* Transparencia suave */
+    border-radius: 12px;
+    padding: 32px 24px;
+    width: 240px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    /* Desenfoque de fondo */
+    -webkit-backdrop-filter: blur(12px);
+    /* Compatibilidad Safari */
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    /* Borde sutil */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+
+.educacion-item:hover {
+    transform: translateY(-4px);
+}
+
+.educacion-item i {
+    font-size: 40px;
+    color: #D4B483;
+    margin-bottom: 16px;
+}
+
+.educacion-item p {
+    font-size: 16px;
+    line-height: 1.4;
 }
