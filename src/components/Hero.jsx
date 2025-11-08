@@ -27,7 +27,7 @@ export default function Hero() {
             </a>
 
             <a 
-              href="https://linkedin.com/in/tu_usuario" // ← reemplaza con tu LinkedIn real
+              href="www.linkedin.com/in/christian-alfaro-rivera-329539367" // ← reemplaza con tu LinkedIn real
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -35,7 +35,7 @@ export default function Hero() {
             </a>
 
             <a 
-              href="https://github.com/tu_usuario" // ← reemplaza con tu GitHub real
+              href="https://github.com/Chris85234" // ← reemplaza con tu GitHub real
               target="_blank" 
               rel="noopener noreferrer"
             >

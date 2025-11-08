@@ -14,6 +14,14 @@ const platillos = [
     imagen: "/images/mole.jpg",
     bandera: "/flags/mexico.png",
     coords: [23.6, -102.5]
+  },
+  {
+    pais: "Italia",
+    nombre: "Pizza",
+    reflexion: "La pizza italiana, símbolo de tradición, fuego y comunidad. Masa fermentada, salsa de tomate y queso fundido en horno de piedra.",
+    imagen: "/images/pizza.png",
+    bandera: "/flags/italia.png",
+    coords: [41.9028, 12.4964]
   }
 ];
 
