@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  background-image: url('/images/madera.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.btn {
+  background-color: #D4B483;
+  color: #111111;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* capa oscura semitransparente */
+  border-radius: 0px;
+  padding: 32px;
+}

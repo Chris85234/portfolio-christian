@@ -1,0 +1,374 @@
+/* HERO */
+#hero {
+  position: relative;
+  height: 100vh;
+  background-image: url('/images/hero.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  bottom: 40px;
+  left: 60px;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  color: #D4B483;
+  font-family: 'Playfair Display', serif;
+}
+
+.hero-content h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 32px;
+  font-style: italic;
+}
+
+.social-icons {
+  margin-top: 24px;
+  display: flex;
+  gap: 24px;
+}
+
+.social-icons i {
+  font-size: 32px;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons i:hover {
+  transform: scale(1.2);
+  color: #D4B483;
+}
+
+/* SOBRE MÍ */
+#sobre-mi {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 80px 120px;
+}
+
+.sobre-mi-wrapper {
+  display: flex;
+  gap: 48px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sobre-mi-imagen img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.sobre-mi-texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sobre-mi-texto h2 {
+  font-size: 36px;
+  color: #D4B483;
+  margin-bottom: 24px;
+  font-family: 'Playfair Display', serif;
+}
+
+.sobre-mi-texto p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.sobre-mi-texto h3 {
+  font-size: 24px;
+  color: #D4B483;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.habilidades-lista {
+  list-style: none;
+  padding: 0;
+}
+
+.habilidades-lista li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.habilidades-lista i {
+  color: #D4B483;
+  font-size: 18px;
+}
+
+/* EDUCACIÓN */
+#educacion {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 80px 120px;
+  text-align: center;
+}
+
+.educacion-container h2 {
+  font-size: 36px;
+  color: #D4B483;
+  margin-bottom: 48px;
+  font-family: 'Playfair Display', serif;
+}
+
+.educacion-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px;
+}
+
+.educacion-item {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  padding: 32px;
+  width: 240px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.educacion-item:hover {
+  transform: translateY(-4px);
+}
+
+.educacion-item i {
+  font-size: 40px;
+  color: #D4B483;
+  margin-bottom: 16px;
+}
+
+.educacion-item p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.mapa-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.mapa-fondo {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.788);
+}
+
+.bandera {
+  position: absolute;
+  width: 32px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.bandera:hover {
+  transform: scale(1.2);
+}
+
+.bandera img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+}
+
+.platillo-card {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 16px;
+  width: 240px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  z-index: 10;
+}
+
+.platillo-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.platillo-card h3 {
+  font-size: 18px;
+  color: #D4B483;
+  margin-bottom: 8px;
+}
+
+.platillo-card p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.seccion-polarizada {
+  background: rgba(0, 0, 0, 0.678);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 32px;
+  margin: 40px auto;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.644);
+  max-width: 1200px;
+  position: relative;
+  z-index: 1;
+  background-image: url('/public/images/madera.jpg');
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+  color: #fff;
+}
+
+.mapa-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.subtitulo-mapa {
+  font-size: 16px;
+  margin-bottom: 24px;
+  color: #e0d4c3;
+  font-style: italic;
+  max-width: 700px;
+}
+
+.seccion-contacto {
+  background: rgba(13, 27, 42, 0.7); /* azul marino translúcido */
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 40px;
+  margin: 60px auto;
+  max-width: 960px;
+  color: #F4EDE4;
+  background-image: url('/textures/madera.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+}
+
+.seccion-contacto h2 {
+  font-size: 32px;
+  color: #D4B483;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.contacto-subtitulo {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 32px;
+}
+
+.formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.campos-superiores {
+  display: flex;
+  gap: 16px;
+}
+
+.campos-superiores input,
+textarea {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #D4B483;
+  background: rgba(255,255,255,0.05);
+  color: #F4EDE4;
+  font-family: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  align-self: flex-start;
+  background-color: #A67C52;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #D4B483;
+}
+
+.info-contacto {
+  margin-top: 32px;
+  font-size: 14px;
+  text-align: center;
+  color: #F4EDE4;
+}
+
+.footer {
+  background-color: #0D1B2A;
+  color: #F4EDE4;
+  text-align: center;
+  padding: 32px;
+  font-size: 14px;
+  background-image: url('/textures/madera.jpg');
+  background-size: cover;
+  background-blend-mode: overlay;
+  border-top: 4px solid #A67C52;
+}
+
+.footer p {
+  margin: 8px 0;
+  color: #D4B483;
+}
+
+.footer-redes {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer-redes a {
+  color: #F4EDE4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.footer-redes a:hover {
+  color: #D4B483;
+}
+
