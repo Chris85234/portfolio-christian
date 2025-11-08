@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://tu-usuario.github.io/portfolio",
+  "homepage": "https://chris85234.github.io/portfolio-christian",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -12,7 +12,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  
+
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.1.0",
     "framer-motion": "^12.23.24",
